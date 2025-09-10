@@ -1,0 +1,46 @@
+{
+  "name": "KidStudy",
+  "version": "1.0.0",
+  "description": "KidStudy · 小童学伴是一个温馨的教育小项目，专注于用有趣的方式记录和陪伴孩子的学习成长。",
+  "author": "zhycn",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "KidStudy",
+    "books",
+    "courses",
+    "tools"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhycn/KidStudy.git"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.5",
+    "prettier": "3.6.2",
+    "vitepress": "2.0.0-alpha.12"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,vue}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{md,json,yml,yaml}": [
+      "prettier --write"
+    ]
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=8.0.0",
+    "pnpm": ">=9.0.0"
+  }
+}
