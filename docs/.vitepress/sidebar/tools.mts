@@ -2,8 +2,6 @@
 // 学习工具（包含学习软件、学习网站、学习应用等）
 // 资源（包含学习资源、学习书籍、学习视频等）
 // 软件（包含学习软件、学习应用、学习工具等）
-const toolsSidebar = [
-  
-]
+const toolsSidebar = [];
 
-export default toolsSidebar
+export default toolsSidebar;

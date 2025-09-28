@@ -3,8 +3,6 @@
 // 健身（包含力量训练、 cardio 训练、瑜伽等）
 // 健康管理（包含饮食、睡眠、运动习惯等）
 // 益智（包含拼图、围棋、游戏等）
-const sportSidebar = [
+const sportSidebar = [];
 
-]
-
-export default sportSidebar
+export default sportSidebar;

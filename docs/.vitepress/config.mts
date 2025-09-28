@@ -9,7 +9,6 @@ export default defineConfig({
   srcDir: './src',
   lastUpdated: true,
   themeConfig: {
-
     // 增强的本地搜索配置
     search: {
       provider: 'local',
@@ -82,4 +81,3 @@ export default defineConfig({
     toc: { level: [2, 3] },
   },
 });
-

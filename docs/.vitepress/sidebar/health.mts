@@ -7,8 +7,6 @@
 // 安全教育（包含健康的习惯、安全的出行等）
 // 情感（包含情感的定义、情感的管理等）
 // 情绪管理（包含情绪的识别、情绪的调节等）
-const healthSidebar = [
+const healthSidebar = [];
 
-]
-
-export default healthSidebar
+export default healthSidebar;
