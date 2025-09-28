@@ -46,7 +46,7 @@ export default defineConfig({
       },
     ],
 
-// 增强的社交链接
+    // 增强的社交链接
     socialLinks: [{ icon: 'github', link: 'https://github.com/zhycn/KidStudy' }],
 
     // 新增功能配置
